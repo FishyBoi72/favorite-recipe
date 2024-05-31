@@ -7,15 +7,11 @@
     color:rgb(0, 0, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:medium;
-    display: flex
-    align-items: flex-end; /* Center the items vertically */
-    margin: 20px;
+    align-items: center;
 }
     
 .main-image {
-    margin-right: 20px; /* Space between image and paragraph */
-    width: 200px; /* Example width */
-    height: auto;
+   width: 805px;
 }
 
 .h2 {
@@ -101,7 +97,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: orange;
+    background-color:#ede8e8;
 }
 
 h1 {
