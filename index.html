@@ -20,10 +20,24 @@
 <article
     <p class="paragraph1"> <hr>I absolutely love bacon cheeseburgers. They have got to be one of the greatest foods known to mankind. The absolute burst of flavor between the bacon, the patty, and the absolute melty goodness of the cheese is out of this world! I would go to the <b></b>ends of the earth if I had to just to get a cheeseburger.<hr></p>
 </article>
-<img src="https://www.simplyrecipes.com/thmb/rd9TvSgsVtrUN8pXzjslV6-_FFA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Bacon-Cheeseburger-LEAD-4-031682f9cc60402990868d051612113c.jpg" alt="A beautiful burger" width="500" height="300" class="main-image">
+<div class="container">
+    <img src="https://www.simplyrecipes.com/thmb/rd9TvSgsVtrUN8pXzjslV6-_FFA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Bacon-Cheeseburger-LEAD-4-031682f9cc60402990868d051612113c.jpg" alt="A beautiful burger" width="500" height="300">
+</div>
+<p class="burg1">This is a bacon cheeseburger, it looks absolutely phenominal!</p>
 <footer>
-    <p>&copy; 2024 Recipe World. All rights reserved.</p>
-    <p>Contact us at <a href="mailto:info@recipeworld.com">info@recipeworld.com</a></p>
+    <p>&copy; 2024 Produce Garden | Contact us at info@producegarden.com</p>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <input type="submit" value="Submit">
+    </form>
 </footer>
 </body>
 </html>
