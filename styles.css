@@ -23,6 +23,7 @@
     align-items: center;
     margin: 20px 0;
     max-width: 100%;
+    
 }
 
 .center-image img {
@@ -130,6 +131,7 @@ h1 {
 form {
     margin: 20px auto;
     max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -204,35 +206,33 @@ input[type="submit"]:hover {
     section {
         margin-bottom: 40px;
     }
-}
 
-
-@media (max-width: 599px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
+    @media (max-width: 599px) {
+        nav ul li {
+            display: block;
+            margin: 10px 0;
+        }
+    
+        header, main, footer {
+            padding: 10px;
+        }
+    
+        h1 {
+            font-size: 1.5em;
+        }
+    
+        h2 {
+            font-size: 1.2em;
+        }
     }
-
-    header, main, footer {
-        padding: 10px;
+    
+    
+    @media (orientation: landscape) {
+        body {
+            background-color: #e6f7ff;
+        }
+    
+        main {
+            padding: 30px;
+        }
     }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-}
-
-
-@media (orientation: landscape) {
-    body {
-        background-color: #e6f7ff;
-    }
-
-    main {
-        padding: 30px;
-    }
-}
